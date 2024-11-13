@@ -12,12 +12,6 @@
     rel="stylesheet">
 
   <style type="text/css">
-    body {
-      margin: 0;
-      padding: 0;
-      overflow-x: hidden;
-    }
-
     table,
     td {
       border-collapse: collapse;
@@ -26,10 +20,6 @@
       border-spacing: 0;
       border: none;
       padding: 0;
-    }
-
-    a {
-      color: #5766b1;
     }
 
     @media screen and (max-width: 600px) {
@@ -46,6 +36,10 @@
       .header-container table {
         text-align: center;
         margin: 0 auto;
+      }
+
+      .header-wrapper {
+        background: #ffffff !important;
       }
 
       .header-text-1 {
@@ -78,10 +72,6 @@
         border-radius: 0 !important;
       }
 
-      .back1 {
-        opacity: 0.05;
-      }
-
       .logo-container {
         padding: 10px 0 10px 0 !important;
       }
@@ -96,37 +86,40 @@
 
       .desktop {
         display: none !important;
-      }
+      }  
     }
   </style>
 </head>
 
-<body style="background-color: #f2f1f9;">
+<body style="background-color: #f2f1f9; font-family: Arial, sans-serif; margin: 0; padding: 0; overflow-x: hidden;">
+  <span style="display: none; opacity: 0; max-height: 0px;">Special offers from SimpleMoneyGoals.com                                      </span>
   <center>
     <table class="main-page" border="0" cellspacing="0" cellpadding="0"
       style="max-width: 600px; line-height: 0; background-color: #ffffff;">
       <tr>
         <td style="width: 100%;">
           <table border="0" cellspacing="0" cellpadding="0">
-            <!------------------header--------------------------------->
+            <!------------------ Header --------------------------------->
             <tr>
-              <td class="header-wrapper" style="background-color: #ffffff; position: relative;">
-                <img class="back1" src="public/hexHead.png" alt=""
-                  style="position: absolute; width:373px; right: 8px; top: 10px;">
+              <td class="header-wrapper" style="background-color: #ffffff; position: relative;
+              background: 
+              url('https://i.ibb.co/bQ8HSKg/hexHead.png') right 8px top 10px no-repeat;
+              background-size: 373px;
+              ">
                 <table border="0" cellspacing="0" cellpadding="0" ; style="width: 100%;">
                   <tr>
                     <td class="header-container" style="padding: 26px 41px 32px 41px;">
                       <table border="0" cellspacing="0" cellpadding="0" width="100%">
                         <tr>
                           <td class="logo-container" style="display: block; padding-bottom: 21px;">
-                            <a href="https://simplemoneygoals.com/"><img src="public/logoHeader.png" alt="Logo" width="59px" height="59px"></a>
+                            <a href="https://simplemoneygoals.com/"><img src="https://i.ibb.co/SBLc0sk/logo-Header.png" alt="Logo" width="59px" height="59px"></a>
                           </td>
                           <td style="display: block;">
                             <table border="0" cellspacing="0" cellpadding="0">
                               <tr>
                                 <td>
                                   <span class="header-text-1"
-                                    style="font-family: Russo One; font-size: 32px; font-weight: 400; letter-spacing: 0.08em; text-align: left; color: #6074aa; line-height: 38px; padding: 0;">
+                                    style="font-family: 'Russo One', Arial, sans-serif; font-size: 32px; font-weight: 400; letter-spacing: 0.08em; text-align: left; color: #6074aa; line-height: 38px; padding: 0;">
                                     WELCOME&nbsp;TO
                                   </span>
                                 </td>
@@ -134,7 +127,7 @@
                               <tr>
                                 <td>
                                   <span class="header-text-1"
-                                    style="font-family: Russo One; font-size: 32px; font-weight: 400; letter-spacing: 0.08em; text-align: left; color: #6867E8; line-height: 38px;">
+                                    style="font-family: 'Russo One', Arial, sans-serif; font-size: 32px; font-weight: 400; letter-spacing: 0.08em; text-align: left; color: #6867E8; line-height: 38px;">
                                     SIMPLE&nbsp;MONEY&nbsp;GOALS
                                   </span>
                                 </td>
@@ -148,7 +141,7 @@
                               <tr>
                                 <td>
                                   <span class="header-text-2"
-                                    style="font-family: Roboto Condensed; font-size: 34px; font-weight: 300; text-align: left; color: #6074AA; line-height: 40px;">
+                                    style="font-family: 'Roboto Condensed', Arial, sans-serif; font-size: 34px; font-weight: 300; text-align: left; color: #6074AA; line-height: 40px;">
                                     OUR&nbsp;TOP&nbsp;PRODUCTS&nbsp;FOR&nbsp;YOU
                                   </span>
                                 </td>
@@ -162,21 +155,24 @@
                 </table>
               </td>
             </tr>
-            <!------------------Content-1------------------------------>
+            <!------------------ Content-1 ------------------------------>
             <tr>
               <td class="content-wrapper" width="100%"
-                style="position: relative; background-color: #656bd0; background: linear-gradient(90deg, #667EEA 0%, #624BA2 145.36%); overflow: hidden;">
-                <img src="public/hexTop.png" alt=""
-                  style="position: absolute; mix-blend-mode: color-dodge; display: block; top: 1px; left: 1px; width: 386px;">
-                <img src="public/hexBottom.png" alt=""
-                  style="position: absolute; mix-blend-mode: color-dodge; display: block; right: 1px; bottom: 1px; width: 386px;">
+                style="position: relative;  overflow: hidden; background-color: #656bd0;
+                background: 
+                url('https://i.ibb.co/cYgNHK8/hexTop.png') top 1px left 1px no-repeat,
+                url('https://i.ibb.co/sJzsrq4/hex-Bottom.png') bottom 1px right 1px no-repeat,
+                linear-gradient(to right, #667EEA 0%, #624BA2 145.36%);
+                background-size: 386px, 386px, contain; 
+                background-blend-mode: color-dodge;
+                ">
                 <table border="0" cellspacing="0" cellpadding="0" width="100%">
                   <tr>
                     <td class="content-container" style="padding: 70px 40px 70px 0; position: relative;">
                       <table border="0" cellspacing="0" cellpadding="0">
                         <tr class="row">
                           <td class="column">
-                            <img class="image" src="public/content1.jpeg" alt="Content1" height="250px" width="290px"
+                            <img class="image" src="https://i.ibb.co/prQfx7n/content1.jpg" alt="Image" height="250px" width="290px"
                               style="border-radius: 0 4px 4px 0; object-fit: cover; margin: 0 auto;">
                           </td>
                           <td class="column" style="padding-left: 22px;">
@@ -187,7 +183,7 @@
                                     <tr>
                                       <td>
                                         <span
-                                          style="font-family: Roboto; font-size: 16px; font-weight: 500; line-height: 22px; color: #ffffff; padding-bottom: 20px; display: block;">
+                                          style="font-family: Roboto, Arial, sans-serif; font-size: 16px; font-weight: 500; line-height: 22px; color: #ffffff !important; padding-bottom: 20px; display: block;">
                                           We'd like to be in a friendly-touch and share the freshest updates regarding
                                           unique
                                           opportunities at Investment field with you</span>
@@ -195,8 +191,8 @@
                                     </tr>
                                     <tr>
                                       <td class="content1-button" align="center"
-                                        style="background-color: #ffffff; width: 100%; padding: 0; border-radius: 4px; display: block;">
-                                        <a href="#" style="display: block; text-align: center; padding: 24px 0; width: 100%; height: 100%; color: #656FD4; text-decoration: none; font-family: Russo One;
+                                        style="background-color: #656bd0; background-color: #ffffff !important; width: 100%; padding: 0; border-radius: 4px; display: block;">
+                                        <a href="https://example.com/" style="display: block; text-align: center; padding: 24px 0; width: 100%; height: 100%; color: #656FD4; text-decoration: none; font-family: 'Russo One', Arial, sans-serif;
                                           font-size: 18px;
                                           font-weight: 400;
                                           text-align: center;
@@ -215,18 +211,20 @@
                 </table>
               </td>
             </tr>
-            <!------------------Content-2------------------------------>
+            <!------------------ Content-2 ------------------------------>
             <tr>
               <td class="content-wrapper" width="100%"
-                style="position: relative; background-color: #ffffff; overflow: hidden;">
-                <img src="public/hexHead.png" alt="Content2"
-                  style="position: absolute; right: 1px; top: 1px; opacity: 0.2; width: 373px;">
+                style="position: relative; background-color: #ffffff; overflow: hidden;
+                background: 
+                url('https://i.ibb.co/YcNGCYN/hexHead.png') right 1px  top 1px no-repeat;
+                background-size: 373px;">
                 <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                <tr>
                   <td class="content-container" style="padding: 70px 0 70px 40px; position: relative;">
                     <table border="0" cellspacing="0" cellpadding="0">
                       <tr class="row">
                         <td class="column mobile" style="display: none;">
-                          <img class="image" src="public/content2.jpg" alt="" height="250px" width="290px"
+                          <img class="image" src="https://i.ibb.co/prQfx7n/content2.jpg" alt="Image" height="250px" width="290px"
                             style="border-radius: 4px 0 0 4px; object-fit: cover; margin: 0 auto;">
                         </td>
                         <td class="column" style="padding-right: 22px;">
@@ -237,16 +235,16 @@
                                   <tr>
                                     <td>
                                       <span
-                                        style="font-family: Roboto; font-size: 16px; color: #343642; display: block; line-height: 22px; font-weight: 500; padding-bottom: 20px;">
+                                        style="font-family: Roboto, Arial, sans-serif; font-size: 16px; color: #343642; display: block; line-height: 22px; font-weight: 500; padding-bottom: 20px;">
                                         We'd like to be in a friendly-touch and share the freshest updates regarding
                                         unique
                                         opportunities at Investment field with you</span>
                                     </td>
                                   </tr>
                                   <tr>
-                                    <td class="content2-button" align="center" style="background: linear-gradient(90deg, #667EEA 0%, #624BA2 145.36%); box-shadow: 0px 5px 12px 0px #6679E333;
+                                    <td class="content2-button" align="center" style="background-color: #656bd0; background-image: linear-gradient(to right, #667EEA 0%, #624BA2 145.36%); box-shadow: 0px 5px 12px 0px #6679E333;
                                       width: 100%; padding: 0; border-radius: 4px; display: block;">
-                                      <a href="#" style="display: block; text-align: center; padding: 24px 0; width: 100%; height: 100%; color: #ffffff; text-decoration: none; font-family: Russo One;
+                                      <a href="https://example.com/" style="display: block; text-align: center; padding: 24px 0; width: 100%; height: 100%; color: #ffffff; text-decoration: none; font-family: 'Russo One', Arial, sans-serif;
                                         font-size: 18px;
                                         font-weight: 400;
                                         text-align: center;
@@ -259,30 +257,33 @@
                           </table>
                         </td>
                         <td class="column desktop">
-                          <img class="image2" src="public/content2.jpg" alt="" height="250px" width="290px"
+                          <img class="image2" src="https://i.ibb.co/S0hyT2G/content2.jpg" alt="Image" height="250px" width="290px"
                             style="border-radius: 4px 0 0 4px; object-fit: cover; margin: 0 auto;">
                         </td>
                       </tr>
                     </table>
                   </td>
+                  </tr>
                 </table>
               </td>
             </tr>
-            <!------------------Content-3------------------------------>
+            <!------------------ Content-3 ------------------------------>
             <tr>
               <td class="content-wrapper" width="100%"
-                style="position: relative; background-color: #656bd0; background: linear-gradient(90deg, #667EEA 0%, #624BA2 145.36%); overflow: hidden;">
-                <img src="public/hexTop.png" alt=""
-                  style="position: absolute; mix-blend-mode: color-dodge; display: block; top: 1px; left: 1px; width: 386px;">
-                <img src="public/hexBottom.png" alt=""
-                  style="position: absolute; mix-blend-mode: color-dodge; display: block; right: 1px; bottom: 1px; width: 386px;">
+                style="position: relative; background-color: #656bd0; overflow: hidden;
+                background: 
+                url('https://i.ibb.co/cYgNHK8/hexTop.png') top 1px left 1px no-repeat,
+                url('https://i.ibb.co/sJzsrq4/hex-Bottom.png') bottom 1px right 1px no-repeat,
+                linear-gradient(90deg, #667EEA 0%, #624BA2 145.36%);
+                background-size: 386px, 386px, contain; 
+                background-blend-mode: color-dodge;">
                 <table border="0" cellspacing="0" cellpadding="0" width="100%">
                   <tr>
                     <td class="content-container" style="padding: 70px 130px 70px 130px; position: relative;">
                       <table border="0" cellspacing="0" cellpadding="0" width="100%">
                         <tr>
                           <td class="column" style="display: block; text-align: center;">
-                            <img class="image" src="public/content3.jpg" alt="Content3" height="240px" width="340px"
+                            <img class="image" src="https://i.ibb.co/bNTgv0y/content3.jpg" alt="Image" height="240px" width="340px"
                               style="border-radius: 4px 4px 4px 4px; object-fit: cover; margin: 0 auto;">
                           </td>
                           <td class="column" style="display: block; text-align: center;">
@@ -293,14 +294,14 @@
                                     <tr>
                                       <td>
                                         <span
-                                          style="font-family: Roboto; font-size: 16px; font-weight: 500; line-height: 22px; color: #ffffff; padding-bottom: 20px; display: block;">
+                                          style="font-family: Roboto, Arial, sans-serif; font-size: 16px; font-weight: 500; line-height: 22px; color: #ffffff !important; padding-bottom: 20px; display: block;">
                                           Qualcomm is Actually Pushing Regulators to Move Against NVIDIA – Why?</span>
                                       </td>
                                     </tr>
                                     <tr>
                                       <td class="content1-button" align="center"
-                                        style="background-color: #ffffff; width: 100%; padding: 0; border-radius: 4px; display: block;">
-                                        <a href="#" style="display: block; text-align: center; padding: 24px 0; width: 100%; height: 100%; color: #656FD4; text-decoration: none; font-family: Russo One;
+                                        style="background-color: #ffffff !important; width: 100%; padding: 0; border-radius: 4px; display: block;">
+                                        <a href="https://example.com/" style="display: block; text-align: center; padding: 24px 0; width: 100%; height: 100%; color: #656FD4; text-decoration: none; font-family: 'Russo One', Arial, sans-serif;
                                           font-size: 18px;
                                           font-weight: 400;
                                           text-align: center;
@@ -319,9 +320,9 @@
                 </table>
               </td>
             </tr>
-            <!------------------Footer--------------------------------->
+            <!------------------ Footer --------------------------------->
             <tr class="footer">
-              <td class="footer-wrapper" style="background-color: #ffffff; font-family: Roboto;
+              <td class="footer-wrapper" style="background-color: #ffffff; font-family: Roboto, Arial, sans-serif;
               font-size: 12px;
               font-weight: 400;
               line-height: 18px;
@@ -329,41 +330,41 @@
               ">
                 <table border="0" cellspacing="0" cellpadding="0">
                   <tr>
-                    <td class="footer-container" style="padding: 60px 30px 36px 30px; text-align: center;">
+                    <td class="footer-container" style="padding: 60px 30px 36px 30px; text-align: center; color: #000000;">
                       <table border="0" cellspacing="0" cellpadding="0">
                         <tr>
                           <td>
                             <span>
                               This email was sent to <a
-                                href="mailto:yevhenperepelytsia@epcnetwork.io">yevhenperepelytsia@epcnetwork.io</a>
+                                href="mailto:yevhenperepelytsia@epcnetwork.io" style="color: #604ff8"">yevhenperepelytsia@epcnetwork.io</a>
                               because you made a
                               great decision
                               to receive our Daily Digest.
                               <br><br>
                               This ad is sent on behalf of Choose Yourself Media, LLC at 808 Saint Paul Street
                               Baltimore, MD 21202. If you’re not interested in this opportunity from Choose Yourself
-                              Media LLC, please <a href="#">click here</a> and remove yourself from these offers.
+                              Media LLC, please <a href="#" style="color: #604ff8">click here</a> and remove yourself from these offers.
                               <br><br>
                               This offer is brought to you by Simple Money Goals. 413 Lakeview Ave., Santa Monica, CA
                               90403. If you would like to unsubscribe from receiving offers brought to you by Simple
-                              Money Goals <a href="#">click here</a>.
+                              Money Goals <a href="#" style="color: #604ff8">click here</a>.
                               <br><br>
                               Email sent by Finance and Investing Traffic, LLC, operator of <a
-                                href="https://simplemoneygoals.com/">SimpleMoneyGoals.com</a>
+                                href="https://simplemoneygoals.com/" style="color: #604ff8">SimpleMoneyGoals.com</a>
                               <br><br>
                               Copyright © 2020 Simple Money Goals. All Rights Reserved.
                               <br><br>
                               To ensure you receive our email, be sure to whitelist us.
                               <br><br>
-                              <a href="https://simplemoneygoals.com/privacy-policy/">Privacy Policy</a> | <a
-                                href="https://simplemoneygoals.com/terms-and-conditions/">Terms & Conditions</a>
+                              <a href="https://simplemoneygoals.com/privacy-policy/" style="color: #604ff8">Privacy Policy</a> | <a
+                                href="https://simplemoneygoals.com/terms-and-conditions/" style="color: #604ff8">Terms & Conditions</a>
                             </span>
                           </td>
                         </tr>
                         <tr>
                           <td class="footer-logo" style="padding: 25px 0 0 0; line-height: 0;">
                             <a href="https://simplemoneygoals.com/">
-                              <img src="public/logoFooter.png" alt="" width="100px" height="100px">
+                              <img src="https://i.ibb.co/f9vYXXc/logo-Footer.png" alt="Logo" width="100px" height="100px">
                             </a>
                           </td>
                         </tr>
